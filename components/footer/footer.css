@@ -1,0 +1,17 @@
+.footer{
+	color: #45B5AB;
+	background-color: #392537;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+li{
+	display:inline;
+	padding: 25px;
+	font-size: 14px;
+}
+p{
+	text-transform: uppercase;
+	font-size: 12px;
+}
