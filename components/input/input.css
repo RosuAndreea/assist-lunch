@@ -1,5 +1,11 @@
-.input{
+.input {
+	margin-bottom: 15px;
+}
 
+.input:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .input-label{
@@ -9,18 +15,20 @@
 	color:#000;
 	margin-bottom: 10px;
 	display: block;
-	padding-top:20px;
+	padding-top: 15px;
 	font-weight: 700;
 
 
 }
 .input-field{
-	width: 568px;
 	font-size: 14px;
 	padding: 10px;
 	color:black;
 	display: block;
+	width: 100%
 }
+
+
 
 .input ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: black;
@@ -34,3 +42,34 @@
 .input :-moz-placeholder { /* Firefox 18- */
   color: pink;
 }
+
+
+/* INPUTE INLNIE */
+
+.input-inline .input-label{
+	float: left;
+	width: 20%
+}
+
+.input-inline .input-field{
+	float: left;
+	width: 79%;
+	margin-left: 1%;
+}
+
+/*Profile page*/
+.input-left{
+	width:50%;
+	float:left;
+	padding-right:30px
+}
+.input-right{
+	width: 50%;
+	float:right;
+	padding-left: 10px;
+}
+.input-down{
+	width: 100%;
+	float:left;
+}
+
