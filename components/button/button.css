@@ -21,6 +21,9 @@
 	margin:3px;
 	float: right;
 }
+.button-show:hover{
+	color: white;
+}
 /*Edit menu page*/
 #button-edit-menu{
 	color: #46B3AA;
@@ -30,7 +33,11 @@
 	width: 100%;
 	cursor: pointer;
 	margin: 6px 0 35px 0;
+	font-weight: 700;
 
+}
+#button-edit-menu:hover{
+	color: white;
 }
 /*Profile page*/
  .update-button{
@@ -41,4 +48,8 @@
 	width: 100%;
 	margin-top: 5px;
 	cursor: pointer;
+	font-weight: 700;
+}
+.update-button:hover{
+		color: white;
 }
